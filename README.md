@@ -21,7 +21,7 @@ pip install -r requirements.txt
 python src/data_fethcer.py   # artımlı: sadece eksik yarışları çeker
 python src/features.py       # özellikler -> data/processed/featured_races.csv
 python src/models.py         # eğitim + 2026 testi + kalibrasyon -> models/race_ranker.pkl
-python src/predict_race.py   # tahmin -> outputs/*.csv ve outputs/mexico_gp_2026_tahmin.html
+python src/predict_race.py   # tahmin -> outputs/*.csv ve outputs/mexico_gp_2026_tahmin.png
 ```
 
 ## Grid kaynağı

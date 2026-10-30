@@ -155,8 +155,8 @@ def predict_upcoming_race(grid_inputs=None, model_path=MODEL_PATH):
 if __name__ == "__main__":
     # Ceza vb. yüzünden gerçek grid farklıysa: MANUAL_GRID_PATH dosyasını oluştur
     # ya da predict_upcoming_race([...]) ile listeyi doğrudan ver.
-    from visualize import build_html
+    from visualize import plot_probabilities
 
     result = predict_upcoming_race()
     if result is not None:
-        build_html(*result)
+        plot_probabilities(*result)
