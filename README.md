@@ -7,7 +7,23 @@ kodu yapay zeka yardımıyla (tamamıyla değil yardımıyla) yazdım. Görselle
 
 Sonuçları yarış sonrasında güncelleyeceğim
 
-## Kurulum
+Yarış sonrası:
+1- VER
+2- HAM
+3- ANT
+4- LEC
+5- NOR 
+.
+.
+.
+devam eden bir sıralama oluştu. Yarışın galibini doğru tahmin etmiş olduk. Onun dışında yarışın ilk beş sırasını da doğru tahmin etmiş olduk. 
+Modeli sıralama sonuçlarından önceki verilerle eğittiğim için grid verisini son 3 yarışın ortalaması olarak almıştım. Bu da özellikle Hamilton ve 
+Norris'in ortalama pozisyon tahmininde yanlışlıklara sebebiyet verdi. 
+
+Genel olarak değerlendirdiğimde ise benim açıdan başarılı denebilecek bir sonuç ortaya çıktı. Sonraki yarışlarda oluşturacağım modeller için iyi bir deneyim oldu.
+
+
+## Kurulum. 
 
 ```bash
 python -m venv venv
